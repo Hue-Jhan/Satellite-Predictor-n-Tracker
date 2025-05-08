@@ -14,7 +14,7 @@ SATELLITES = {
     'ISS': 25544  # add as many as u want
 }
 observer_lat = 50.00
-observer_lng = 20.00  # this be me cuhh  
+observer_lng = 20.00
 observer_alt = 0
 geolocator = Nominatim(user_agent="satellite_location")
 RESET = "\033[0m"
