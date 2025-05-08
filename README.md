@@ -15,5 +15,8 @@ The map is an ASCII drawing i found online, the satellite position on the map is
 
 Above the map the satellite coordinates are printed, as well as an estimate of what country the satellite is directly above.
 
-# 🛰 Next Passes Predictor <img src="media/gpredict.png" align="right" width="400"> 
+# 🛰 Next Passes Predictor 
+<img src="media/gpredict.png" align="right" width="500"> 
 The prediction is as i said before made by n2yo api, i find it very useful because it shows you the predictions for the next few days, which is something that softares like gpredict do not do, at best they give you the next visible pass and thats'it.
+
+Also gpredict is sometimes laggy and slow, and doesn't allow the user to remove the ranges of the satellites in the map picture, which consumes for some reason lots of resources and can be a problem when having multiple softwares opened (for example sdrpp or satdump if you are actively scanning satellites).
