@@ -4,7 +4,8 @@ Satellite tracker using the N2YO api, it shows real-time satellite positions on 
 <img src="media/predict4.png" align="right" width="400"> 
 
 # 💻 Code
-The code is a simple menu that gives you 3 options:
+This code first requires you to manually add your coordinates and the list of satellites you are interested in next to their n2yo id.
+Then it prompts you to a simple menu which gives you 3 options:
 - Pick one satellite and see their current position on a map;
 - Pick one satellite and see their next visible passes over your location;
 - Take all satellites in the database and see both their position and next visible passes;
@@ -16,7 +17,7 @@ The map is an ASCII drawing i found online, the satellite position on the map is
 Above the map the satellite coordinates are printed, as well as an estimate of what country the satellite is directly above.
 
 # 🛰 Next Passes Predictor 
-<img src="media/gpredict.png" align="right" width="500"> 
-The prediction is as i said before made by n2yo api, i find it very useful because it shows you the predictions for the next few days, which is something that softares like gpredict do not do, at best they give you the next visible pass and thats'it.
+
+<img src="media/gpredict.png" align="right" width="500">  The prediction is as i said before made by n2yo api, i find it very useful because it shows you the predictions for the next few days, which is something that softares like gpredict do not do, at best they give you the next visible pass and thats'it.
 
 Also gpredict is sometimes laggy and slow, and doesn't allow the user to remove the ranges of the satellites in the map picture, which consumes for some reason lots of resources and can be a problem when having multiple softwares opened (for example sdrpp or satdump if you are actively scanning satellites).
