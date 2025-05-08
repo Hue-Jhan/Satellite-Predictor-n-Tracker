@@ -1,2 +1,19 @@
-# Satellite-Predictor-n-Tracker
-Simple Satellite Next passes predictor &amp; Position tracker with N2yo Api
+# Satellite Predictor & Tracker
+Satellite tracker using the N2YO api, it shows real-time satellite positions on an ASCII world map and predicts the next visible passes from your location for the next few days
+
+<img src="media/predict4.png" align="right" width="400"> 
+
+# 💻 Code
+The code is a simple menu that gives you 3 options:
+- Pick one satellite and see their current position on a map;
+- Pick one satellite and see their next visible passes over your location;
+- Take all satellites in the database and see both their position and next visible passes;
+  
+The code uses n2yo api to get the data, the passes are considered visibile if they happen at a certain angle and for a certain amount of time.
+
+The map is an ASCII drawing i found online, the satellite position on the map is calculated and a pin is put there, the accuracy is sometimes very low. 
+
+Above the map the satellite coordinates are printed, as well as an estimate of what country the satellite is directly above.
+
+# 🛰 Next Passes Predictor <img src="media/gpredict.png" align="right" width="400"> 
+The prediction is as i said before made by n2yo api, i find it very useful because it shows you the predictions for the next few days, which is something that softares like gpredict do not do, at best they give you the next visible pass and thats'it.
