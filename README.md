@@ -1,9 +1,10 @@
 # Satellite Predictor & Tracker
 Satellite tracker using the N2YO api, it shows real-time satellite positions on an ASCII world map and predicts the next visible passes from your location for the next few days
 
+# 💻 Code
+
 <img src="media/predict4.png" align="right" width="400"> 
 
-# 💻 Code
 The code starts with a simple menu that gives you 3 options:
 - Pick one satellite and see their current position on a map;
 - Pick one satellite and see their next visible passes over your location;
